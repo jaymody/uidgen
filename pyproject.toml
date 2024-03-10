@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "uidgen"
+version = "1.0.0"
+authors = [{ name = "Jay Mody", email = "jaykmody@gmail.com" }]
+description = "An adjective-noun-number identifier generator."
+license = { file = "LICENSE" }
+readme = "README.md"
+keywords = ["names", "random", "rng"]
+classifiers = [
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+requires-python = ">=3.6"
+
+[project.urls]
+homepage = "https://github.com/jaymody/uidgen"
+repository = "https://github.com/jaymody/uidgen"
