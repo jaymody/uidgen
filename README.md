@@ -54,5 +54,5 @@ So what's the use of this package? Other ID specifications such as `uuid4` have 
 
 You should NOT use this library if:
 
-1) You're application cannot handle name collisions (i.e. the application doesn't detect collisions to regenerate an ID).
+1) Your application cannot handle name collisions (i.e. the application doesn't detect collisions to regenerate an ID).
 2) You need to generate a lot of IDs (more than 10000), in which case, even if you regenerate on a collision, you'll be waiting a while until you get a unique ID.
